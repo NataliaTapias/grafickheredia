@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.if-image {	
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition:filter 0.4s;
+	-webkit-transition:-webkit-filter 1s;
+}
+.if-image:hover {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}
+
+.if-image {
+transition: transform 0.5s;
+}
+.if-image:hover {
+transform: scale(1.5);
+}
+.di {
+transition: transform 0.5s;
+}
+.di:hover {
+transform: scale(1.5);
+}
